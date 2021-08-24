@@ -11,58 +11,58 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/colli/Documents/Unity/Foundation Showcase
+C:/Users/colli/Documents/Repos/Portfolio/Portfolio
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53219
-Successfully changed project path to: C:/Users/colli/Documents/Unity/Foundation Showcase
-C:/Users/colli/Documents/Unity/Foundation Showcase
+64854
+Successfully changed project path to: C:/Users/colli/Documents/Repos/Portfolio/Portfolio
+C:/Users/colli/Documents/Repos/Portfolio/Portfolio
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/colli/Documents/Unity/Foundation Showcase/Assets
+[Subsystems] Discovering subsystems at path C:/Users/colli/Documents/Repos/Portfolio/Portfolio/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
     Vendor:   
     VRAM:     8050 MB
-    Driver:   27.21.14.6677
+    Driver:   30.0.14.7111
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006531 seconds.
+Registered in 0.001874 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.888 seconds
+- Completed reload, in  1.089 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002634 seconds.
+Registered in 0.001192 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.173 seconds
+- Completed reload, in  0.888 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -72,69 +72,577 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 second
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2438 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.9 MB.
+System memory in use before: 191.0 MB.
 System memory in use after: 188.9 MB.
 
 Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2864.
-Total: 3.147300 ms (FindLiveObjects: 0.355600 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.674300 ms  DeleteObjects: 1.039600 ms)
+Total: 3.451500 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.060100 ms  DeleteObjects: 0.994800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Pixel Stuff/PressStart2P-vaV7 (Arcade).ttf
-  artifactKey: Guid(b237f3af242c66d49b7f629055bf2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pixel Stuff/PressStart2P-vaV7 (Arcade).ttf using Guid(b237f3af242c66d49b7f629055bf2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc29141bbafdf8f66133737b90a497e4') in 0.231749 seconds
-  Import took 0.236744 seconds .
+  path: Assets/Scenes/Pixel Stuff/Face
+  artifactKey: Guid(13b0d3c8c4a72514db11a1eb25d88bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face using Guid(13b0d3c8c4a72514db11a1eb25d88bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f81710dc9ff16a7c75f0e8518c40bf') in 0.007727 seconds
+  Import took 0.012775 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003066 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.1 MB.
-System memory in use after: 192.0 MB.
-
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2948.
-Total: 3.115500 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.061300 ms MarkObjects: 1.761400 ms  DeleteObjects: 0.998100 ms)
+Received Import Request.
+  Time since last request: 127.265773 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW.png
+  artifactKey: Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW.png using Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e949f1c1d14b7cdb65222da64680e2c2') in 0.054490 seconds
+  Import took 0.059323 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002237 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.048 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.1 MB.
-System memory in use after: 192.1 MB.
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Smile.png
+  artifactKey: Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Smile.png using Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4597d43ac3e6d792fd06ab93c17b8') in 0.009791 seconds
+  Import took 0.013428 seconds .
 
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2950.
-Total: 3.088700 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.062100 ms MarkObjects: 1.559200 ms  DeleteObjects: 1.132000 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small.png
+  artifactKey: Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small.png using Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d77e51b4c0c0997c862aad990e3fcc3') in 0.009215 seconds
+  Import took 0.012975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.png
+  artifactKey: Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.png using Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35da20457e2206673db233a1efe6f34') in 0.008850 seconds
+  Import took 0.012475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium.png
+  artifactKey: Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium.png using Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fda03a7f6f45ef208938c5bc95a5c3') in 0.008944 seconds
+  Import took 0.012804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/OO.png
+  artifactKey: Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/OO.png using Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08842eac92a34a1c62766302ee42ade9') in 0.009586 seconds
+  Import took 0.013334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY.png
+  artifactKey: Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY.png using Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97ef78b9bb5bdfff3e7312daf9a986e') in 0.009952 seconds
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE.png
+  artifactKey: Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE.png using Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2043752526d030f60f068b3d4e1fc59d') in 0.010055 seconds
+  Import took 0.015882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest.png
+  artifactKey: Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest.png using Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a692aff79d733b4d6d501e1a2bdc17') in 0.009227 seconds
+  Import took 0.013235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.826625 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Computer Screen 1.mat
+  artifactKey: Guid(b446f8ca31f46f84aafd268dc5d8ccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Computer Screen 1.mat using Guid(b446f8ca31f46f84aafd268dc5d8ccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b158a16eebee104838ba2e987c799be6') in 0.162539 seconds
+  Import took 0.166180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.274543 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Computer Screen 2.mat
+  artifactKey: Guid(d51cb1989084f6642a91b7e554e0042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Computer Screen 2.mat using Guid(d51cb1989084f6642a91b7e554e0042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a756b7af23195b5f0b872e8fc5a77b45') in 0.012449 seconds
+  Import took 0.016310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.473875 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Computer Screen 3.mat
+  artifactKey: Guid(b8ed2657cf1cb5748b653af01a659e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Computer Screen 3.mat using Guid(b8ed2657cf1cb5748b653af01a659e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7663164402533453df43a29643870b') in 0.011624 seconds
+  Import took 0.015779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.528295 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium.mat
+  artifactKey: Guid(d51cb1989084f6642a91b7e554e0042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium.mat using Guid(d51cb1989084f6642a91b7e554e0042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee90d9f652ea15e52eeffa16fe1a338a') in 0.021296 seconds
+  Import took 0.025567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Smile.mat
+  artifactKey: Guid(6396ccd7362a4c04a9beff25cf8e925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Smile.mat using Guid(6396ccd7362a4c04a9beff25cf8e925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067bc78d81f5d78a402c65dc2daf5166') in 0.023751 seconds
+  Import took 0.027218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small.mat
+  artifactKey: Guid(b8ed2657cf1cb5748b653af01a659e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small.mat using Guid(b8ed2657cf1cb5748b653af01a659e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc1412def6aa8941bcc9365b5130da6') in 0.011851 seconds
+  Import took 0.015800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest.mat
+  artifactKey: Guid(b446f8ca31f46f84aafd268dc5d8ccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest.mat using Guid(b446f8ca31f46f84aafd268dc5d8ccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ebf684305db182bef97d9e02de6cf5') in 0.027113 seconds
+  Import took 0.031295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.315010 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW.png
+  artifactKey: Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW.png using Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6859793eead23b1bf11455cef6b8ee0') in 0.015134 seconds
+  Import took 0.020885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Smile.png
+  artifactKey: Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Smile.png using Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f2bc106eb3462408a5f222f05e52f2') in 0.004624 seconds
+  Import took 0.007976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small.png
+  artifactKey: Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small.png using Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfb1b3ae42b59678089395a244ea3a6') in 0.005017 seconds
+  Import took 0.009550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.png
+  artifactKey: Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.png using Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb35965497ab8384d82a739d1575de4f') in 0.006072 seconds
+  Import took 0.009791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium.png
+  artifactKey: Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium.png using Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58c6f6df8ef5bfa516a060adffecfb4') in 0.006682 seconds
+  Import took 0.010649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/OO.png
+  artifactKey: Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/OO.png using Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab484a17dcfd610e8765726c8a0a5d7') in 0.005468 seconds
+  Import took 0.009258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY.png
+  artifactKey: Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY.png using Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414bff551a2b3085e2982b9e7cf6026b') in 0.005496 seconds
+  Import took 0.009138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE.png
+  artifactKey: Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE.png using Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8766fcdd3640307caeb6a01c5abeaf59') in 0.005962 seconds
+  Import took 0.009398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest.png
+  artifactKey: Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest.png using Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132c5ebf1dedb853c75df833f2964399') in 0.005555 seconds
+  Import took 0.008825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.836232 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY.mat
+  artifactKey: Guid(3b4effaaae1a9374c8f9408bea45fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY.mat using Guid(3b4effaaae1a9374c8f9408bea45fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352da46e5e976e220e47274599b69fe4') in 0.015261 seconds
+  Import took 0.019290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.464819 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/OO.mat
+  artifactKey: Guid(8f7769251fb9636459e6b6eecec568a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/OO.mat using Guid(8f7769251fb9636459e6b6eecec568a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13acb20082461200e34a948c7afacdaa') in 0.014753 seconds
+  Import took 0.018943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.554051 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW.mat
+  artifactKey: Guid(f3ed0acb51ca9a1449e9e448f2c46b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW.mat using Guid(f3ed0acb51ca9a1449e9e448f2c46b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c897e093ae74fef3e3c99860075600cf') in 0.010174 seconds
+  Import took 0.013904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.948835 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW.png
+  artifactKey: Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW.png using Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13062c6a806ed3fce5be5b5e9089c1c') in 0.009170 seconds
+  Import took 0.013364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Smile.png
+  artifactKey: Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Smile.png using Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86b6f558bb60fc99873d1e552175017') in 0.006484 seconds
+  Import took 0.010785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small.png
+  artifactKey: Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small.png using Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e51ad3e767b908ab93af43848be529') in 0.005041 seconds
+  Import took 0.008718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.png
+  artifactKey: Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.png using Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26019754311e439f8397582344d1699e') in 0.029510 seconds
+  Import took 0.033357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium.png
+  artifactKey: Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium.png using Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fd11ee70b4e2de1545a814612f011a') in 0.009121 seconds
+  Import took 0.013232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.png
+  artifactKey: Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.png using Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26019754311e439f8397582344d1699e') in 0.005092 seconds
+  Import took 0.008205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/OO.png
+  artifactKey: Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/OO.png using Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e9b43f3125002704403de482e6f285') in 0.004840 seconds
+  Import took 0.007941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY.png
+  artifactKey: Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY.png using Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c306422c899266c1dd2a51e685c9c004') in 0.007736 seconds
+  Import took 0.011489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE.png
+  artifactKey: Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE.png using Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5b22d614df1a4b673574ba3fdab1ab') in 0.005397 seconds
+  Import took 0.008374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest.png
+  artifactKey: Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest.png using Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb7d0cc220ebbe6547efa6fd35ee132') in 0.007865 seconds
+  Import took 0.011178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.207361 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.png
+  artifactKey: Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.png using Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaee7797211f922ba6972eb9b8926da') in 0.007471 seconds
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006977 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW.png
+  artifactKey: Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW.png using Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d918f840fdb1a73df544da436a6b71') in 0.011293 seconds
+  Import took 0.014566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Smile.png
+  artifactKey: Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Smile.png using Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761e57b6528109eb56f163c33ff6b709') in 0.008678 seconds
+  Import took 0.012222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small.png
+  artifactKey: Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small.png using Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b874ec95c608d16b25fd589c19d486') in 0.008475 seconds
+  Import took 0.012189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium.png
+  artifactKey: Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium.png using Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e92b8a62353803a6337824d1795e99') in 0.014180 seconds
+  Import took 0.018258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/OO.png
+  artifactKey: Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/OO.png using Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b518d0b4d15b4ad7dd0c2d996637f827') in 0.015427 seconds
+  Import took 0.018901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY.png
+  artifactKey: Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY.png using Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d6561e0fcea0647ad29c0a2325cb4a') in 0.008249 seconds
+  Import took 0.012298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE.png
+  artifactKey: Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE.png using Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5577133221ccf7126ca783a42fc2f5c') in 0.010844 seconds
+  Import took 0.014674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest.png
+  artifactKey: Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest.png using Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3a50af4aa53c55f4d15a8b95926e3') in 0.006684 seconds
+  Import took 0.010326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.818046 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW 1.png
+  artifactKey: Guid(038805d636c805040a3416bea8a137e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW 1.png using Guid(038805d636c805040a3416bea8a137e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e112417e543cfd1d357b8f8ee4a0cf') in 0.008512 seconds
+  Import took 0.012521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small 1.png
+  artifactKey: Guid(d3d4699734e3d1b448f44c7c697a2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small 1.png using Guid(d3d4699734e3d1b448f44c7c697a2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd92981aa5f4050022dc76618a502e') in 0.008181 seconds
+  Import took 0.011986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.mat
+  artifactKey: Guid(38516935b4f88e64c966cb8759890a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.mat using Guid(38516935b4f88e64c966cb8759890a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04053d619a3d7b5da39fb692bd923de2') in 0.009968 seconds
+  Import took 0.014011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest 1.png
+  artifactKey: Guid(9b7e88970175e914cbca5c1724d271ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest 1.png using Guid(9b7e88970175e914cbca5c1724d271ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e330994062ee7ef3a2c8db742e120e28') in 0.010648 seconds
+  Import took 0.014601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE 1.png
+  artifactKey: Guid(796b64ed1a8ed50469f17ac459c52032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE 1.png using Guid(796b64ed1a8ed50469f17ac459c52032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ced6b55cc22d8b2cf4471b2f74a3143') in 0.008097 seconds
+  Import took 0.011214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY 1.png
+  artifactKey: Guid(e5d583aa98f4f764ca108b4a5c4a33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY 1.png using Guid(e5d583aa98f4f764ca108b4a5c4a33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7768de6706a40382968abdd560d62a') in 0.008648 seconds
+  Import took 0.012554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.458214 seconds.
+  path: Assets/Scenes/Pixel Stuff/AW.png
+  artifactKey: Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/AW.png using Guid(4ca6ee966c92a3c4889cfaf5b356651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b48ef96ae5c7855a9c6ec5009b7b3') in 0.019119 seconds
+  Import took 0.023205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.558895 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AW 1.png
+  artifactKey: Guid(50d0add0f20749e48a43efb2ec4c23af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AW 1.png using Guid(50d0add0f20749e48a43efb2ec4c23af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b961c918d108c63f8b43c04f42c092aa') in 0.008504 seconds
+  Import took 0.012471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY 1.png
+  artifactKey: Guid(228feb83619c66a4a8384e7267077ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY 1.png using Guid(228feb83619c66a4a8384e7267077ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834703c230a06901de522f062f63a091') in 0.012270 seconds
+  Import took 0.015710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium 1.png
+  artifactKey: Guid(9118fc35d80382741bdefac83f8e013d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium 1.png using Guid(9118fc35d80382741bdefac83f8e013d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318fa0608f09c77185346025fd68483f') in 0.008878 seconds
+  Import took 0.012831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE 1.png
+  artifactKey: Guid(60245ae74f2ac5048b530e9fbd3f7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE 1.png using Guid(60245ae74f2ac5048b530e9fbd3f7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d53b544bbeb07f2f611bf6bb0fa4c72') in 0.007066 seconds
+  Import took 0.010729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small 1.png
+  artifactKey: Guid(63f4671cb5b02fb4f8d5a5cf49c7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small 1.png using Guid(63f4671cb5b02fb4f8d5a5cf49c7a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57627a920484ffae75d24b26397a4be5') in 0.004694 seconds
+  Import took 0.007948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest 1.png
+  artifactKey: Guid(90f509fead25f5748ac9cd1cef7208df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest 1.png using Guid(90f509fead25f5748ac9cd1cef7208df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3306d05f4f6b975cb64890dab203ca') in 0.007779 seconds
+  Import took 0.011630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY 1.png
+  artifactKey: Guid(6eabae892bc1fcf48a025c8544241795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY 1.png using Guid(6eabae892bc1fcf48a025c8544241795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6724584b28bb39e7bfe4b87f8d8332') in 0.007987 seconds
+  Import took 0.011375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.967755 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/AY.png
+  artifactKey: Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/AY.png using Guid(69ac381bcef23864c939626654f8ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5ec7d7e0e3b2ac318a52766cf497aa') in 0.009194 seconds
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Smile.png
+  artifactKey: Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Smile.png using Guid(35c0e8b780af785459865517125910be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a291ab931ee098858004dd761b4bb85a') in 0.008323 seconds
+  Import took 0.011887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Small.png
+  artifactKey: Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Small.png using Guid(7698b71e8f002f64e81463a8b113634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2536a6ecb90d9c1889364e1f405c42e1') in 0.008670 seconds
+  Import took 0.012274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Medium.png
+  artifactKey: Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Medium.png using Guid(f823bf95f4693ee4f927f3a22dd203d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f389bd893e3622e86cb99970878062ec') in 0.010463 seconds
+  Import took 0.013752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/OO.png
+  artifactKey: Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/OO.png using Guid(6719384d39d4a5849a1443c3fd535b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec312339176cf847a43148e41328422d') in 0.008478 seconds
+  Import took 0.011470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/SmallAY.png
+  artifactKey: Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/SmallAY.png using Guid(f2e05baea7ec722459842a2201ebfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8405dfa6a6d09d7166d62102d6f981a') in 0.010779 seconds
+  Import took 0.014066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/EE.png
+  artifactKey: Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/EE.png using Guid(79aa5f13e47320d4ca2752e8255f3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe12de4ca799a16c626abf43c66d55f') in 0.009706 seconds
+  Import took 0.013052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Rest.png
+  artifactKey: Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Rest.png using Guid(9db60981b2a09914bab604f1b7f189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bcfa44877f9cb8ee9852a288b0269d') in 0.009312 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 749.251902 seconds.
+  path: Assets/Scenes/Pixel Stuff/Face/Daisy Bell.mp3
+  artifactKey: Guid(39916ccf8fb038141a0ef46aa2198002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pixel Stuff/Face/Daisy Bell.mp3 using Guid(39916ccf8fb038141a0ef46aa2198002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159a107c2884419b03d0748f4f6b3267') in 0.055380 seconds
+  Import took 0.059563 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
