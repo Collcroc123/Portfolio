@@ -27,7 +27,7 @@ set pico8DesktopPath=%pico8HomePath%documents\screenshots\
 set scale=6
 set size=128
 set /a scaledsize=%size%*%scale%
-set pico8Options=-windowed 1 -width %scaledsize% -height %scaledsize% -frameless 0 -sound 200
+set pico8Options=-windowed 1 -width %scaledsize% -height %scaledsize% -frameless 0 -sound 256
 if "%1"=="" (
   set pico8Options=%pico8Options% -console
 ) else (

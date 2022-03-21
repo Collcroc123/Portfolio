@@ -1,5 +1,25 @@
 pico-8 cartridge // http://www.pico-8.com
 version 35
+__lua__
+loops = 1000
+ascend = true
+string = "♥"
+music(1)
+
+for i = 0, loops do
+	if (i % 10 == 0) then
+		ascend = not ascend
+	else
+		if (ascend) then
+			string = string.."♥"
+			print(string,14)
+		else
+			string = sub(string,1,-2)
+			print(string,81)
+		end
+	end
+end
+
 __gfx__
 000000000000000000eeeee0e000000000eeeee000000000000eeee0000000000000000000000000000000000000000000000000000000000000000000000000
 0000000000eeeee00eee000eeeeeee000ee0000eeeeeeee000ee000e000000000000000000000000000000000000000000000000000000000000000000000000

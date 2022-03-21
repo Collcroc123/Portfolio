@@ -1,114 +1,164 @@
 [000000] codo_init
 [000000]   platform: Windows
-[000000]   Found config.txt
-[000000]   
-[000000]     01 window_size 256 256 // window width, height
-[000000]     02 screen_size 0 0 // screen width, height (stretched to window) 
-[000000]     03 show_fps 0 // Draw frames per second in the corner
-[000000]     04 windowed 1 // 1 to start up in windowed mode
-[000000]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
-[000000]     new window position: -1, -1
-[000000]     06 frameless 1 // 1 to use a window with no frame
-[000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
-[000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
-[000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
-[000000]     10 sessions 15 // number of times program has been run
-[000000]     11 rmb_key 0 // 0 for none  226 for LALT
-[000000]     12 desktop_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/documents/screenshots/
-[000000]     13 sound_volume 200 // 0..256
-[000000]     14 music_volume 256 // 0..256
-[000000]     15 mix_buffer_size 1024
-[000000]     16 version 0.2.4B
-[000000]     17 volume 200
-[000000]     18 root_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/
-[000000]     19 cdata_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/cdata/
-[000000]     20 joystick_index 0
-[000000]     21 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
-[000000]     22 live_notes 0
-[000000]     23 cursor_snap 0
-[000000]     24 gui_theme 0
-[000000]     25 screenshot_scale 3
-[000000]     26 gif_scale 3
-[000000]     27 gif_len 16
-[000000]     28 gif_reset_mode 0
-[000000]     29 host_framerate_control 1
-[000000]     30 splore_filter 0
-[000000]     31 tab_width 1
-[000000]     32 draw_tabs 0
-[000000]     33 record_activity_log 1
-[000000]     34 allow_function_keys 1
-[000000]     35 check_for_cart_updates 1
-[000000]     36 auto_hide_mouse_cursor 5
-[000000]     37 aggressive_backups 0
-[000000]     38 transform_screen 0
-[000000]   
-[000000]   codo_system_init
-[000358]   Compiled against SDL version: 2.0.2
-[000358]   Linked against SDL version:   2.0.9
-[000358]   Current video driver: windows
-[000358]   codo_reset_timer
-[000358]   codo_gui_init
-[000358]   codo_keys_init
-[000358]   codo_text_init
-[000359]   codo_video_init
-[000359]   codo_mouse_init
-[000359]   codo_joystick_init
-[000359]   Reading controller mappings: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/sdl_controllers.txt
-[000359]   searching for joysticks
-[000359]     found 2 joysticks
-[000359]     connecting joystick 0
-[000359]     Controller 0: XInput Controller
-[000359]      Number of Axes: 6
-[000359]      Number of Buttons: 11
-[000359]      Number of Balls: 0
-[000359]      Mapping: 030000006d0400000000000000007801,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Windows
-[000359]     connecting joystick 1
-[000366]     Unmapped Joystick 1: Joystick (Razer Huntsman V2 Analog)
-[000366]      Number of Axes: 6
-[000366]      Number of Buttons: 24
-[000366]      Number of Balls: 0
-[000366]   ok
-[000366] ok
-[000373] codo_load_pod: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/pico8.dat ok 
-[000376] codo_set_screen 128 128 8 100
-[000376]  window size: 768 768
-[000515]   setting filter to nearest (screen_mode 0  back page width: 128)
+[000005]   Found config.txt
+[000005]   
+[000005]     01 window_size 256 256 // window width, height
+[000005]     02 screen_size 0 0 // screen width, height (stretched to window) 
+[000005]     03 show_fps 0 // Draw frames per second in the corner
+[000005]     04 windowed 1 // 1 to start up in windowed mode
+[000005]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
+[000005]     new window position: -1, -1
+[000005]     06 frameless 1 // 1 to use a window with no frame
+[000005]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
+[000005]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
+[000005]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
+[000005]     10 sessions 18 // number of times program has been run
+[000005]     11 rmb_key 0 // 0 for none  226 for LALT
+[000005]     12 desktop_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/documents/screenshots/
+[000005]     13 sound_volume 256 // 0..256
+[000005]     14 music_volume 256 // 0..256
+[000005]     15 mix_buffer_size 1024
+[000005]     16 version 0.2.4B
+[000005]     17 volume 256
+[000005]     18 root_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/
+[000005]     19 cdata_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/cdata/
+[000005]     20 joystick_index 0
+[000005]     21 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000005]     22 live_notes 0
+[000005]     23 cursor_snap 0
+[000005]     24 gui_theme 0
+[000005]     25 screenshot_scale 3
+[000005]     26 gif_scale 3
+[000005]     27 gif_len 16
+[000005]     28 gif_reset_mode 0
+[000005]     29 host_framerate_control 1
+[000005]     30 splore_filter 0
+[000005]     31 tab_width 1
+[000005]     32 draw_tabs 0
+[000005]     33 record_activity_log 1
+[000005]     34 allow_function_keys 1
+[000005]     35 check_for_cart_updates 1
+[000005]     36 auto_hide_mouse_cursor 5
+[000005]     37 aggressive_backups 0
+[000005]     38 transform_screen 0
+[000005]   
+[000005]   codo_system_init
+[000464]   Compiled against SDL version: 2.0.2
+[000464]   Linked against SDL version:   2.0.9
+[000464]   Current video driver: windows
+[000464]   codo_reset_timer
+[000464]   codo_gui_init
+[000464]   codo_keys_init
+[000464]   codo_text_init
+[000464]   codo_video_init
+[000464]   codo_mouse_init
+[000464]   codo_joystick_init
+[000469]   Reading controller mappings: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/sdl_controllers.txt
+[000469]   searching for joysticks
+[000469]     found 2 joysticks
+[000469]     connecting joystick 0
+[000469]     Controller 0: XInput Controller
+[000469]      Number of Axes: 6
+[000469]      Number of Buttons: 11
+[000469]      Number of Balls: 0
+[000469]      Mapping: 030000006d0400000000000000007801,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Windows
+[000469]     connecting joystick 1
+[000476]     Unmapped Joystick 1: Joystick (Razer Huntsman V2 Analog)
+[000476]      Number of Axes: 6
+[000476]      Number of Buttons: 24
+[000476]      Number of Balls: 0
+[000476]   ok
+[000476] ok
+[000490] codo_load_pod: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/pico8.dat ok 
+[000493] codo_set_screen 128 128 8 100
+[000493]  window size: 768 768
+[000892]   setting filter to nearest (screen_mode 0  back page width: 128)
   renderer direct3d:
    flags: 0x0000000E ( |  | )
    texture formats (3): ARGB8888, YV12, IYUV
    max texture size: 16384x16384
-[000517]  desktop size: 1920 1080
-[000517] ok
-[000519] codo_sound_init mix_buffer_size: 1024
-[000519] codo_sound_init
-[000519] SDL_INIT_AUDIO ok
-[000555] SDL_OpenAudio ok
-[000555]  freq:22050
+[000894]  desktop size: 1920 1080
+[000894] ok
+[000896] codo_sound_init mix_buffer_size: 1024
+[000896] codo_sound_init
+[000896] SDL_INIT_AUDIO ok
+[000923] SDL_OpenAudio ok
+[000923]  freq:22050
  channels:1
-[000555] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
-[000555] Current audio driver: wasapi
-[000555] splore_init
-[000755] connecting joystick 0
-[000755] Controller 0: XInput Controller
-[000755]  Number of Axes: 6
-[000755]  Number of Buttons: 11
-[000755]  Number of Balls: 0
-[000755]  Mapping: 030000006d0400000000000000007801,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Windows
-[006222] setting fullscreen window size to 1920 1080
-[006356]   setting filter to nearest (screen_mode 1  back page width: 128)
-  renderer direct3d:
-   flags: 0x0000000E ( |  | )
-   texture formats (3): ARGB8888, YV12, IYUV
-   max texture size: 16384x16384
-[026068] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/roygbiv.p8.png running_filename: roygbiv.p8.png running_cart_lid: 
-[263489] window closed (14)
-[263490] codo_exit
-[263490]   cmusic_stop
-[263490]   codo_main_exit
-[263490]   codo_config_save
-[263491]   codo_sound_exit
-[263491]   codo_video_exit
-[263500]   codo_joystick_exit
-[263501]   codo_system_exit
-[263501]   codo_items_created: 1454
-[263501] ok
+[000923] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
+[000923] Current audio driver: wasapi
+[000923] splore_init
+[001254] connecting joystick 0
+[001254] Controller 0: XInput Controller
+[001254]  Number of Axes: 6
+[001254]  Number of Buttons: 11
+[001254]  Number of Balls: 0
+[001254]  Mapping: 030000006d0400000000000000007801,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Windows
+[108856] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[126587] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[139916] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[381770] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[395209] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[410385] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[415869] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[423399] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[569673] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[594312] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[647247] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/hello.p8 running_filename: demos/hello.p8 running_cart_lid: 
+[690858] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/hello.p8 running_filename: demos/hello.p8 running_cart_lid: 
+[765161] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[773280] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[799381] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[838665] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[947043] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[992603] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1021673] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1124271] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1193304] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1199121] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1203847] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1207378] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1218109] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1514949] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1520629] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1531128] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1550346] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1638114] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1896687] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[1905745] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2020283] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2063569] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2073460] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2078574] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2141263] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2145372] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2157705] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2176785] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2181130] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[2195619] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[7705457] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[9704773] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[9709085] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/first.p8 running_filename: first.p8 running_cart_lid: 
+[10039229] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[10319241] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[10409843] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[10479568] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[10528823] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[10548619] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[13549466] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[13777270] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[13824077] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[13848791] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[13908920] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[13990534] run_cart current_filename: C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/carts/demos/sort.p8 running_filename: demos/sort.p8 running_cart_lid: 
+[14007274] window closed (14)
+[14007274] codo_exit
+[14007274]   cmusic_stop
+[14007274]   codo_main_exit
+[14007274]   codo_config_save
+[14007275]   codo_sound_exit
+[14007275]   codo_video_exit
+[14007291]   codo_joystick_exit
+[14007291]   codo_system_exit
+[14007292]   codo_items_created: 1458
+[14007292] ok

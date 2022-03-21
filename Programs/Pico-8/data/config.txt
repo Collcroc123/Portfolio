@@ -16,7 +16,7 @@ show_fps 0 // Draw frames per second in the corner
 
 // :: Window Settings
 
-windowed 0 // 1 to start up in windowed mode
+windowed 1 // 1 to start up in windowed mode
 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
 frameless 1 // 1 to use a window with no frame
 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
@@ -28,7 +28,7 @@ foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to c
 
 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
 
-sessions 16 // number of times program has been run
+sessions 19 // number of times program has been run
 
 // (scancode) hold this key down and left-click to simulate right-click
 rmb_key 0 // 0 for none  226 for LALT
@@ -40,7 +40,7 @@ desktop_path C:/Users/colli/Documents/Repos/Portfolio/Programs/Pico-8/data/docum
 
 // :: Audio Settings (use "volume" for PICO-8)
 
-sound_volume 200 // 0..256
+sound_volume 256 // 0..256
 music_volume 256 // 0..256
 
 
@@ -54,7 +54,7 @@ mix_buffer_size 1024
 version 0.2.4B
 
 // audio volume: 0..256 
-volume 200
+volume 256
 
 
 // Location of pico-8's root folder
