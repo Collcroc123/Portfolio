@@ -730,7 +730,7 @@
             <background color="workspace" />
         </style>
         <style id="workspace_check_box" extends="check_box" padding="4">
-          <text color="workspace_text" align="left middle" x="14" />
+            <text color="workspace_text" align="left middle" x="14" />
         </style>
         <style id="tab">
             <background part="tab_normal" align="middle" />
@@ -968,15 +968,15 @@
             <icon part="aseprite_face_pushed" state="mouse selected" />
         </style>
         <style id="slider" border-top="4" border-bottom="5">
-          <background part="slider_empty" />
-          <background part="slider_empty_focused" state="focus" />
-          <text color="slider_empty_text" align="center middle" />
-          <text color="slider_empty_text" align="center middle" state="focus" y="1" />
+            <background part="slider_empty" />
+            <background part="slider_empty_focused" state="focus" />
+            <text color="slider_empty_text" align="center middle" />
+            <text color="slider_empty_text" align="center middle" state="focus" y="1" />
         </style>
         <style id="mini_slider" extends="slider" font="mini" padding-top="1" padding-bottom="3">
-          <background part="mini_slider_empty" />
-          <text color="slider_empty_text" align="center middle" />
-          <text color="slider_empty_text" align="center middle" state="focus" />
+            <background part="mini_slider_empty" />
+            <text color="slider_empty_text" align="center middle" />
+            <text color="slider_empty_text" align="center middle" state="focus" />
         </style>
     </styles>
 </theme>
