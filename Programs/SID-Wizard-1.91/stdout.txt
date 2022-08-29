@@ -1,0 +1,1 @@
+Usage: SIDwizard [-h] [-zoom3] [-lofiborder] [-sid6581] [-stereo] [[path]filename] [directory] [-drive9 directory]
